@@ -214,15 +214,17 @@
     - Returns: `void`
 25. `replaceChild()`: Replaces a child node of the element.
     - Returns: `Node`
-26. `scrollIntoView()`: Scrolls the element into view.
+26. `replaceChildren()`: Replaces the children of the element with new nodes. Removes EventListeners for the removed children.
     - Returns: `void`
-27. `setAttribute()`: Sets an attribute of the element.
+27. `scrollIntoView()`: Scrolls the element into view.
     - Returns: `void`
-28. `setAttributeNode()`: Sets an attribute node of the element.
+28. `setAttribute()`: Sets an attribute of the element.
+    - Returns: `void`
+29. `setAttributeNode()`: Sets an attribute node of the element.
     - Returns: `Attr`
-29. `setCapture()`: Sets the capture mode of the element.
+30. `setCapture()`: Sets the capture mode of the element.
     - Returns: `void`
-30. `webkitMatchesSelector()`: Returns whether the element matches a specified selector (WebKit only).
+31. `webkitMatchesSelector()`: Returns whether the element matches a specified selector (WebKit only).
     - Returns: `boolean`
 
 Note that this is not an exhaustive list, and some properties and methods may be specific to certain browsers or versions.
